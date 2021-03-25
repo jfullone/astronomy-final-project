@@ -216,9 +216,9 @@ h1 {
     padding: 0;
     margin: 10px;
   }
-  .bannerContent {
+  /* .bannerContent {
     display: flexbox;
-  }
+  } */
 
   .cellWeatherMoon {
     width: 360px;
@@ -249,8 +249,18 @@ h1 {
   }
   .banner .clouds img {
     display: none;
+    height:150px;
   }
-  .clouds{
-    display: none;
+  .banner .clouds{
+
+    height:150px;
+  }
+  .bannerContent{
+    height:150px;
+    margin-top:40px
+  }
+  .search{
+    margin-top: 200px;
+
   }
 }
